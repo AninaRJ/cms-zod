@@ -1,5 +1,15 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+This project demonstrates a type-safe approach to working with Contentful CMS data in Next.js applications. It showcases:
+
+- Type-safe content models using Zod schemas to validate Contentful responses
+- Strongly-typed queries and content fetching
+- Runtime validation of CMS data
+- Clean separation between content models and UI components
+- Example UI implementation showing the full data flow
+
+The goal is to provide a maintainable pattern for integrating Contentful with full type safety and runtime validation.
+
 ## Getting Started
 
 First, run the development server:
@@ -26,6 +36,8 @@ To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [How to use Contentful with Next.js and Zod](https://dev.to/jussinevavuori/using-contentful-with-nextjs-part-1-2i0a) - an article by the author that inspired this project
+- [Rich text and images with Contentful, Next.js and Zod](https://dev.to/jussinevavuori/rich-text-and-images-with-contentful-nextjs-and-zod-5684) - Part 2 of the article
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
